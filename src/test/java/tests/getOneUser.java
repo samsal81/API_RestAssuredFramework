@@ -8,21 +8,21 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
-public class getOneItem {
+public class getOneUser {
 
 	@Test
-	public void GetASingleItemFunction() {
+	public void GetASingleUserFunction() {
 		
 		Response response = 
 				given()
-				.baseUri("https://reqres.in/api/")
-				.header("Content-Type", "application/json; charset=utf-8")
-				.queryParam("id", "1")
+					.baseUri("https://reqres.in/api/")
+					.header("Content-Type", "application/json; charset=utf-8")
+					.queryParam("id", "1")
 				.when()
-				.get("users")
+					.get("users")
 				.then()
-				.header("Content-Type", "application/json; charset=utf-8")
-				.extract().response();
+					.header("Content-Type", "application/json; charset=utf-8")
+					.extract().response();
 		
 		ResponseBody respbody = response.body();
 		String respoBody = respbody.asString();

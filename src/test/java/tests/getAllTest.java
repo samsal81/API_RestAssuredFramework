@@ -14,16 +14,16 @@ public class getAllTest {
 		
 		Response response = 
 				given()
-				.baseUri("https://reqres.in/api/")
-				.header("Content-Type", "application/json; charset=utf-8")
+					.baseUri("https://reqres.in/api/")
+					.header("Content-Type", "application/json; charset=utf-8")
 				.when()
-				.log().all()
-				.get("users")
+					.log().all()
+					.get("users")
 				.then()
-				.log().all()
-				.statusCode(200)
-				.header("Content-Type", "application/json; charset=utf-8")
-				.extract().response();
+					.log().all()
+					.statusCode(200)
+					.header("Content-Type", "application/json; charset=utf-8")
+					.extract().response();
 		
 		String strresp = response.toString();
 		

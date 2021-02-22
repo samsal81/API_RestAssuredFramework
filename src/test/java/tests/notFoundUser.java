@@ -12,17 +12,17 @@ public class notFoundUser {
 	public void UnfoundUser() {
 		Response response = 
 				given()
-				.baseUri("https://reqres.in/api/")
-				.header("Content-Type", "application/json; charset=utf-8")
-				.queryParam("id", "100")
+					.baseUri("https://reqres.in/api/")
+					.header("Content-Type", "application/json; charset=utf-8")
+					.queryParam("id", "100")
 				.when()
-				.log().all()
-				.get("users")
+					.log().all()
+					.get("users")
 				.then()
-				.log().all()
-				.statusCode(404)
-				.header("Content-Type", "application/json; charset=utf-8")
-				.extract().response();
+					.log().all()
+					.statusCode(404)
+					.header("Content-Type", "application/json; charset=utf-8")
+					.extract().response();
 		
 		String resp = response.asString();
 		System.out.println(resp);
