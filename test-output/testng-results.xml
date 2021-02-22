@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2257" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
+  <suite name="Default suite" duration-ms="2362" started-at="2021-02-22T17:57:03Z" finished-at="2021-02-22T17:57:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2257" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
-      <class name="tests.getTest">
-        <test-method status="PASS" signature="GetFunction()[pri:0, instance:tests.getTest@161b062a]" name="GetFunction" duration-ms="2196" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
+    <test name="Default test" duration-ms="2362" started-at="2021-02-22T17:57:03Z" finished-at="2021-02-22T17:57:05Z">
+      <class name="tests.getOneItem">
+        <test-method status="PASS" signature="GetASingleItemFunction()[pri:0, instance:tests.getOneItem@e50a6f6]" name="GetASingleItemFunction" duration-ms="2300" started-at="2021-02-22T17:57:03Z" finished-at="2021-02-22T17:57:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetFunction -->
-      </class> <!-- tests.getTest -->
+        </test-method> <!-- GetASingleItemFunction -->
+      </class> <!-- tests.getOneItem -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

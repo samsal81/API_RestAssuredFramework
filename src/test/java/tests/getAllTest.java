@@ -2,11 +2,11 @@ package tests;
 
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 import io.restassured.response.Response;
 
-public class getTest {
+public class getAllTest {
 
 	@Test
 	public void GetFunction() {
@@ -18,7 +18,7 @@ public class getTest {
 				.header("Content-Type", "application/json; charset=utf-8")
 				.when()
 				.log().all()
-				.get("users?page=2")
+				.get("users")
 				.then()
 				.log().all()
 				.statusCode(200)
