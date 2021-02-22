@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2257" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2257" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
+      <class name="tests.getTest">
+        <test-method status="PASS" signature="GetFunction()[pri:0, instance:tests.getTest@161b062a]" name="GetFunction" duration-ms="2196" started-at="2021-02-22T16:52:49Z" finished-at="2021-02-22T16:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetFunction -->
+      </class> <!-- tests.getTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
