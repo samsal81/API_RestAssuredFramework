@@ -45,5 +45,13 @@ public class getOneUser {
 		Assert.assertEquals(email, "george.bluth@reqres.in"); 
 		Assert.assertEquals(FN, "George"); 
 		Assert.assertEquals(LN, "Bluth"); 
+		
+		String responseHeader=response.getHeader("Content-Type");
+		System.out.println(responseHeader);
+		Assert.assertEquals(responseHeader, "application/json; charset=utf-8");
+		
+		int responseStat = response.getStatusCode();
+		System.out.println("Response Status :" + responseStat);
+		Assert.assertEquals(responseStat, 200);
 	}
 }

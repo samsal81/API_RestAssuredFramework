@@ -2,6 +2,7 @@ package tests;
 
 import static io.restassured.RestAssured.given;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
@@ -26,5 +27,13 @@ public class notFoundUser {
 		
 		String resp = response.asString();
 		System.out.println(resp);
+		
+		int responseStat = response.getStatusCode();
+		System.out.println("Response Status :" + responseStat);
+		Assert.assertEquals(responseStat, 404);
+		
+		String responseHeader=response.getHeader("Content-Type");
+		System.out.println(responseHeader);
+		Assert.assertEquals(responseHeader, "application/json; charset=utf-8");
 	}
 }
