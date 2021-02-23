@@ -24,6 +24,7 @@ public class getOneUser {
 					.header("Content-Type", "application/json; charset=utf-8")
 					.extract().response();
 		
+		@SuppressWarnings("rawtypes")
 		ResponseBody respbody = response.body();
 		String respoBody = respbody.asString();
 		//System.out.println(respoBody);

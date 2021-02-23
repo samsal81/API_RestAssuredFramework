@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3298" started-at="2021-02-22T21:12:41Z" finished-at="2021-02-22T21:12:44Z">
+  <suite name="Default suite" duration-ms="3357" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3298" started-at="2021-02-22T21:12:41Z" finished-at="2021-02-22T21:12:44Z">
-      <class name="tests.createUser">
-        <test-method status="PASS" signature="CreateUsr()[pri:0, instance:tests.createUser@e50a6f6]" name="CreateUsr" duration-ms="3261" started-at="2021-02-22T21:12:41Z" finished-at="2021-02-22T21:12:44Z">
+    <test name="Default test" duration-ms="3357" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
+      <class name="tests.unsuccessfulLogin">
+        <test-method status="PASS" signature="FailedLogin()[pri:0, instance:tests.unsuccessfulLogin@e50a6f6]" name="FailedLogin" duration-ms="3294" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateUsr -->
-      </class> <!-- tests.createUser -->
+        </test-method> <!-- FailedLogin -->
+      </class> <!-- tests.unsuccessfulLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
