@@ -47,8 +47,8 @@ public class successfulRegister {
 		System.out.println("Response Status: " + responseStat);
 		Assert.assertEquals(responseStat, 200);
 		
-//		String responseHeader=response.getHeader("Content-Type");
-//		System.out.println(responseHeader);
-//		Assert.assertEquals(responseHeader, "application/json; charset=utf-8");
+		String responseHeader=response.getHeader("Content-Type");
+		System.out.println(responseHeader);
+		Assert.assertEquals(responseHeader, "application/json; charset=utf-8");
 	}
 }
