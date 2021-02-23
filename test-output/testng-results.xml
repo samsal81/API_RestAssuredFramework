@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3357" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
+  <suite name="Default suite" duration-ms="3357" started-at="2021-02-23T03:34:46Z" finished-at="2021-02-23T03:34:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3357" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
-      <class name="tests.unsuccessfulLogin">
-        <test-method status="PASS" signature="FailedLogin()[pri:0, instance:tests.unsuccessfulLogin@e50a6f6]" name="FailedLogin" duration-ms="3294" started-at="2021-02-23T03:07:05Z" finished-at="2021-02-23T03:07:08Z">
+    <test name="Default test" duration-ms="3357" started-at="2021-02-23T03:34:46Z" finished-at="2021-02-23T03:34:49Z">
+      <class name="tests.successfulRegister">
+        <test-method status="PASS" signature="SuccessRegistration()[pri:0, instance:tests.successfulRegister@e50a6f6]" name="SuccessRegistration" duration-ms="3318" started-at="2021-02-23T03:34:46Z" finished-at="2021-02-23T03:34:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FailedLogin -->
-      </class> <!-- tests.unsuccessfulLogin -->
+        </test-method> <!-- SuccessRegistration -->
+      </class> <!-- tests.successfulRegister -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
